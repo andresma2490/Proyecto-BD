@@ -5,7 +5,7 @@
 git clone https://github.com/andresma2490/Proyecto-BD.git
 
 
-#…for create a new repository on the command line
+#…for create a new document on the command line
 
 echo "# Proyecto-BD" >> ALGO.txt
 
