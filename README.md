@@ -13,7 +13,7 @@ git init
 
 git add ALGO.txt
 
-git commit -m"first commit"
+git commit -m "first commit"
 
 
 #…for push an existing repository from the command line
