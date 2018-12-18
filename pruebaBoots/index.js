@@ -3,7 +3,7 @@ const express= require('express');
 const server= express();
 
 //declarar el puerto
-server.set('puerto', process.env.PORT || 3000);
+server.set('puerto', process.env.PORT || 3001);
 
 //iniciar el server
 server.listen(server.get('puerto'), ()=>{
