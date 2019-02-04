@@ -21,3 +21,6 @@ git commit -m "first commit"
 git remote add origin https://github.com/andresma2490/Proyecto-BD.git
 
 git push -u origin (branch)
+
+
+#…for run the project read vue-vue/README
