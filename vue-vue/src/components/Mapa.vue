@@ -1,27 +1,41 @@
 <template>
-  
-  <l-map style="height: 80%; width: 100%" :zoom="zoom" :center="center">
-    <l-tile-layer :url="url"></l-tile-layer>
-    <l-marker :lat-lng="markerLatLng" ></l-marker>
+
+  <l-map id="elMapa" ref="elMapa" :min-zoom="minzoom" :max-zoom="maxzoom" :zoom="zoom" :center="center">
+    <l-tile-layer :url="url" :attribution="attribution"></l-tile-layer>
+
   </l-map>
 </template>
 
+
 <script>
 
-
-
-
-import { LMap, LTileLayer, LMarker, LIcon, LPopup, LPolyline } from 'vue2-leaflet';
-import "leaflet/dist/leaflet.css";
+import {LMap, LTileLayer, LMarker } from 'vue2-leaflet';
 
 export default {
-  data () {
-    return {
-      url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
-      zoom: 3,
-      center: [47.413220, -1.219482],
-      markerLatLng: [47.313220, -1.319482]
-    };
-  }
+    name: 'MyAwesomeMap',
+    components: {
+        LMap,
+        LTileLayer,
+        LMarker
+    },
+    data(){
+      return {
+        zoom:11 /*13*/,
+        minzoom:13, //1 or 13
+        maxzoom:18, //18
+        center: L.latLng(3.4216, -76.5120),
+        url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+        attribution:'&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors',
+        marker: L.latLng(3.4516, -76.5320),
+      }
+    }
 }
 </script>
+
+
+<style>
+  #elMapa{
+    height: 600px;
+    width: 100%;
+  }
+</style>
