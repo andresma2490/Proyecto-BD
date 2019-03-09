@@ -24,11 +24,13 @@ export default new Router({
       component: HelloWorld
     },
 
+/*
     {
       path: '/about',
       name: 'about',
-      component: ()=> import('@/components/about.vue')
-    },
+      component: About
+      //component: ()=> import('@/components/about.vue')
+    },*/
 
     {
       path: '/',
