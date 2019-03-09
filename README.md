@@ -23,12 +23,12 @@ git commit -m "first commit"
 ```
 
 ### for push an existing repository from the command line
-
+```
 git remote add origin https://github.com/andresma2490/Proyecto-BD.git
 
 git push -u origin (branch)
 
-
+```
 
 ## FOR RUN THE PROYECT READ vue-vue/README
 
