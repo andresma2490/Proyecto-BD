@@ -22,6 +22,7 @@ git add ALGO.txt
 git commit -m "first commit"
 
 
+
 ### For push an existing repository from the command line
 
 git remote add origin https://github.com/andresma2490/Proyecto-BD.git
@@ -30,13 +31,13 @@ git push -u origin (branch)
 
 ```
 
-
 ## FOR RUN THE PROYECT READ vue-vue/README
 
 * [vue-vue](https://github.com/andresma2490/Proyecto-BD/tree/master/vue-vue) - The app
 
 
-## AUTHORS
+
+## Authors
 
 * **Carlos Murillo** - [carban](https://github.com/carban)
 * **Andrés Montenegro** - [andresma2490](https://github.com/andresma2490)
