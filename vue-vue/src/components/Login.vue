@@ -19,9 +19,18 @@
                   <input v-model="access.password" type="password" name="phone" value="" class="form-control" placeholder="Password">
                 </div>
                 <div class="form-group">
-                  <button class="btn btn-warning btn-block">Sign In</button>
+                  <router-link :to="{ name: 'Perfil', params: {} }">
+                    <button class="btn btn-warning btn-block">Sign In</button>
+                  </router-link>
                 </div>
+
               </form>
+              <router-link :to="{ name: 'Registro', params: {} }">
+                create an account
+              </router-link>
+
+
+
             </div>
           </div>
         </div>

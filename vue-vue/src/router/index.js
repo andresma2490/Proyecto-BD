@@ -7,6 +7,9 @@ import Navegacion from '@/components/Navegacion'
 import Home from '@/components/Home.vue'
 import Login from '@/components/Login.vue'
 import Mapa from '@/components/Mapa.vue'
+import Registro from '@/components/Registro.vue'
+
+import about from '@/components/about.vue'
 
 import Perfil from '@/components/Perfil.vue'
 import Configuracion from '@/components/Configuracion.vue'
@@ -67,6 +70,18 @@ export default new Router({
       name: 'Configuracion',
       component: Configuracion
     },
+
+    {
+      path: '/registro',
+      name: 'Registro',
+      component: Registro
+    },
+
+    {
+      path: '/about',
+      name: 'About',
+      component: about
+    }
 
 
   ]

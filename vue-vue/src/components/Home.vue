@@ -1,7 +1,7 @@
 <template>
   <div class="divHome">
     <link href="https://fonts.googleapis.com/css?family=Pompiere" rel="stylesheet">
-    <h1 id="title">Univalle Taxi</h1>
+    <h1 id="title">Welcome!</h1>
 
       <div class="choose">
 
