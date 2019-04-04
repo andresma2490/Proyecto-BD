@@ -121,18 +121,20 @@ export default {
     }
   },
 
+
+
 }
 </script>
 
 <style lang="css">
 
-  #content{
+
+  .container{
     padding: 0px;
   }
 
-  .signup{
-    margin-top: 50px;
-  }
+
+
 
 
 </style>
