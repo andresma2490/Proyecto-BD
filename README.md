@@ -41,6 +41,6 @@ git push -u origin (branch)
 
 * **Carlos Murillo** - [carban](https://github.com/carban)
 * **Andrés Montenegro** - [andresma2490](https://github.com/andresma2490)
-* **Christian Millan** - [iLoveWater](https://github.com)
+* **Christian Millan** - [iLoveWater](https://github.com/kanwulf89)
 
 
